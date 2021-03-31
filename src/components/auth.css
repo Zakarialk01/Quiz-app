@@ -1,0 +1,87 @@
+.Login {
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  width: 450px;
+  padding: 40px;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgba(22, 24, 47, 1) 0%,
+    rgba(38, 20, 72, 0.9) 59%,
+    rgba(17, 27, 75, 0.9) 100%
+  );
+}
+.Login h1 {
+  text-align: center;
+  color: white;
+}
+.Login input[type="text"] {
+  border: 0;
+  background: rgba(255, 255, 255, 0.1);
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 14px 10px;
+  width: 160px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.BtnContainer p span {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.BtnContainer p span:hover {
+  color: red;
+}
+
+.Login input[type="email"],
+.Login input[type="password"] {
+  border: 0;
+  background: rgba(255, 255, 255, 0.1);
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: none;
+  border: 1px solid gray;
+  padding: 14px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.Login input[type="email"]:focus,
+.Login input[type="password"]:focus {
+  width: 300px;
+  border-color: #2ecc71;
+}
+.bouton {
+  border: 0;
+  background: #603bbb;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: none;
+  padding: 14px 10px;
+  width: 150px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.bouton :focus {
+  border-color: #3498db;
+}

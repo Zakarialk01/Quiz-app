@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Log } from "./components";
+import React, { useState, useEffect } from "react";
+import Choice from "./Choice";
+import Quiz from "./quiz";
+import fire from "./components/base";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
+  const [user, setUser] = useState(null);
+
+  const authListener = () => {
+    fire.auth().onAuthStateChanged((user) => {
+      if (user) {
+        setUser(user);
+      } else {
+        setUser(null);
+      }
+    });
+  };
+
+  useEffect(() => {
+    authListener();
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          {user ? <Choice /> : <Log />}
+          <Route exact path="/quiz">
+            <Quiz />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

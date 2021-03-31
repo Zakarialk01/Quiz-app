@@ -1,0 +1,122 @@
+html,
+body,
+#root {
+  height: 100%;
+  background: rgb(53, 19, 84);
+  background: linear-gradient(
+    90deg,
+    rgb(63, 25, 99) 41%,
+    rgba(53, 25, 83, 1) 60%,
+    rgb(75, 35, 114) 83%
+  );
+}
+
+.quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+.quiz .card {
+  max-width: 400px;
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+  box-shadow: rgba(253, 248, 248, 0.248) 0px 50px 100px -20px,
+    rgba(255, 246, 246, 0.391) 0px 30px 60px -30px,
+    rgba(255, 255, 255, 0.616) 0px -2px 6px 0px inset;
+}
+.quiz .carde {
+  max-width: 500px;
+  margin-top: 10%;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  box-shadow: rgba(253, 248, 248, 0.248) 0px 50px 100px -20px,
+    rgba(255, 246, 246, 0.391) 0px 30px 60px -30px,
+    rgba(255, 255, 255, 0.616) 0px -2px 6px 0px inset;
+}
+.quiz .cardd {
+  max-width: 400px;
+  margin-top: 12%;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  box-shadow: rgba(253, 248, 248, 0.248) 0px 50px 100px -20px,
+    rgba(255, 246, 246, 0.391) 0px 30px 60px -30px,
+    rgba(255, 255, 255, 0.616) 0px -2px 6px 0px inset;
+}
+.control label {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.control label {
+  margin-left: 0;
+}
+
+.control label input {
+  margin-right: 13px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #001529;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 2px;
+}
+
+.btn {
+  padding: 17px;
+  /* margin-left: auto; */
+  background: #711b94;
+  color: white;
+  font-weight: 700;
+  float: right;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #ad17e8;
+}
+@media screen and (max-width: 790px) {
+  .quiz .cardd {
+    margin-top: 30%;
+  }
+  .quiz .carde {
+    margin-top: 30%;
+  }
+  .quiz .card {
+    margin-top: 17%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .quiz .cardd {
+    margin-top: 80%;
+    width: 70%;
+  }
+  .quiz .carde {
+    margin-top: 50%;
+    width: 90%;
+  }
+
+  .quiz .card {
+    margin-top: 27%;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 530px) {
+  .quiz .carde {
+    margin-top: 30%;
+    width: 90%;
+  }
+}
