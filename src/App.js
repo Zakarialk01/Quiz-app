@@ -7,6 +7,7 @@ import Quiz2 from "./quizzes/ReactQuiz";
 import Quiz3 from "./quizzes/htmlQuiz";
 import Quiz4 from "./quizzes/footballQuiz";
 import Quiz5 from "./quizzes/cssQuiz";
+import Quiz6 from "./quizzes/geoQuiz";
 import fire from "./components/base";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -49,6 +50,9 @@ function App() {
             </Route>
             <Route exact path="/css">
               <Quiz5 />
+            </Route>
+            <Route exact path="/geo">
+              <Quiz6 />
             </Route>
           </Switch>
         </div>

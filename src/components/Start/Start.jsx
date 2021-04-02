@@ -12,7 +12,7 @@ const Start = ({ nextStep }) => {
           {location.pathname == "/capital" && <h1>Start Capital quiz</h1>}
           {location.pathname == "/football" && <h1>Start Football quiz</h1>}
           {location.pathname == "/css" && <h1>Start Css quiz</h1>}
-
+          {location.pathname == "/geo" && <h1>Start Historical quiz</h1>}
           <h4>Good Luck !</h4>
           <button class="button is-link is-active" onClick={nextStep}>
             Start

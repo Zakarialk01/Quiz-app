@@ -1,0 +1,60 @@
+{
+    "data": [
+      
+      {
+        "question": "The Eiffel Tower was built on the occasion of:",
+        "choices": ["The occasion of the Universal Exhibition of 1889 ", "Following a simple idea from an architect", "À l'occasion d'une fête de Paris ", "The won of Napoleon"],
+        "answer": "The occasion of the Universal Exhibition of 1889 "
+      },
+      {
+        "question": "Astana belongs to which country",
+        "choices": ["Turkmenistan ", "Uzbekistan", "Kazakhistan", "kirghizistan"],
+        "answer": "Kazakhistan"
+      },
+      {
+        "question": "The famous snows of Kilimanjaro are found:",
+        "choices": ["Japon ", "Nepal", "Tanzania ", "Singapour"],
+        "answer": "Tanzania "
+      },
+      {
+        "question": "what we see in the middle of egypt flag is :",
+        "choices": ["Sphinx", "Pyramid", "Golden Eagle", "Bird"],
+        "answer": "Golden Eagle"
+      },
+      {
+        "question": "Samarkand, a great city of Islamic art, is located in:",
+        "choices": ["Uzbekistan", "Russia", "Morroco ", "Turkey"],
+        "answer": "Uzbekistan"
+      },
+      {
+        "question": "The ACP countries are:",
+        "choices": ["Africa and Caraibe,Pacific", "Algeria,Cambodia,Portugal","Australia,Cambodia,Portugal", "Austria,Cambodia,Portugal"],
+        "answer": "Africa and Caraibe,Pacific"
+      },
+      {
+        "question": "how many colors flag of Morroco contains",
+        "choices": ["2", "3", "4 ", "5"],
+        "answer": "2"
+      },
+      {
+        "question": "When did the USSR disappear (following the fall of the Berlin Wall)?",
+        "choices": ["1971", "1970", "1981 ", "1991"],
+        "answer": "1991"
+      },
+      {
+        "question": "Where is the headquarters of the European Commission located?",
+        "choices": [" Frankfurt ", "Paris", "Bern", "Brussels"],
+        "answer": "Brussels"
+      },
+      {
+        "question": "Which country is not one of the Four Asian Dragons?",
+        "choices": ["South Korea", "China", "Taiwan ", "Hong kong"],
+        "answer": "China"
+      },
+      {
+        "question": "How many large islands make up Japan?",
+        "choices": ["3", "4", "5", "2"],
+        "answer": "4"
+      }     
+    ]
+    }

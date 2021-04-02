@@ -23,7 +23,8 @@ function Navbar() {
       location.pathname === "/react" ||
       location.pathname === "/html" ||
       location.pathname === "/football" ||
-      location.pathname === "/css" ? (
+      location.pathname === "/css" ||
+      location.pathname === "/geo" ? (
         <>
           <button className="btn-link">
             <Link style={{ textDecoration: "none" }} to="/">
