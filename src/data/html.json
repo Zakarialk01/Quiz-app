@@ -1,0 +1,63 @@
+{
+    "data": [
+      
+      {
+        "question": "What does HTML stand for?",
+        "choices": ["HyperText markup language", "HyperText and links Markup Language", "HighText Machine Language", "None of these"],
+        "answer": "HyperText markup language"
+      },
+      {
+        "question": "The correct sequence of HTML tags for starting a webpage is -",
+        "choices": ["Head, Title, HTML, body", "HTML, Body, Title, Head", "HTML, Head, Title, Body", "HTML, Title, Head, Body"],
+        "answer": "HTML, Head, Title, Body"
+      },
+      {
+        "question": "Which of the following element is responsible for making the text bold in HTML?",
+        "choices": ["<pre>", "<a>", "<b>", "<br>"],
+        "answer": "<b>"
+      },
+      {
+        "question": " How to create a hyperlink in HTML?",
+        "choices": ["<a link = 'www.javatpoint.com'> javaTpoint.com </a>", "<a url = 'www.javatpoint.com' javaTpoint.com /a>", "<a href = 'www.javatpoint.com'> javaTpoint.com </a>","<a> www.javatpoint.com <javaTpoint.com /a>"],
+        "answer": "<a href = 'www.javatpoint.com'> javaTpoint.com </a>"
+      },
+      {
+        "question": "How to create an ordered list (a list with the list items in numbers) in HTML?",
+        "choices": ["<ul>", "<ol>","<li>","<i>"],
+        "answer": "<ol>"
+      },
+      {
+        "question": "Which of the following element is responsible for making the text italic in HTML?",
+        "choices": ["<it>", "<itl>", "<italic>", "<i>"],
+        "answer": "<i>"
+      },
+      {
+        "question": "A program in HTML can be rendered and read by -",
+        "choices": ["Interpreter", "Web Browser", "Server", "None of the above"],
+        "answer": "Web Browser"
+      },
+      {
+        "question": "Which of the following HTML attribute is used to define inline styles?",
+        "choices": ["style", "type", "class", "None of the above"],
+        "answer": "style"
+      },
+      {
+        "question": "Which of the following is the container for <tr>, <th>, and <td> ?",
+        "choices": ["<table>", "<group>", "<ul>", "<container>"],
+        "answer": "<table>"
+      },
+      {
+        "question": "Which of the following attribute is used to provide a unique name to an element?",
+        "choices": ["id", "className", "class", "type"],
+        "answer": "id"
+      },
+      {
+        "question": "How to create a checkbox in HTML?",
+        "choices": ["<input type ='checkbox'>", "<input type = 'button-checkbox'>", "<checkbox>", "<input type = 'chbx'>"],
+        "answer": "<input type ='checkbox'>"
+      }
+    ]
+  }
+
+
+  

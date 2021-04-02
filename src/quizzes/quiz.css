@@ -74,19 +74,6 @@ body,
   border-radius: 2px;
 }
 
-.btn {
-  padding: 17px;
-  /* margin-left: auto; */
-  background: #711b94;
-  color: white;
-  font-weight: 700;
-  float: right;
-  border: none;
-}
-
-.btn:hover {
-  background-color: #ad17e8;
-}
 @media screen and (max-width: 790px) {
   .quiz .cardd {
     margin-top: 30%;

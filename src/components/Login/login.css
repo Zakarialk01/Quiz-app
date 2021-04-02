@@ -1,7 +1,7 @@
 .Login {
   box-shadow: 10px 5px 5px #060606;
   width: 500px;
-  padding: 40px;
+  padding: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -77,4 +77,10 @@
   .Login {
     max-width: 280px;
   }
+}
+.img {
+  width: 100px;
+  height: 80px;
+  margin: 0 auto;
+  display: block;
 }

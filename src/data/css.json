@@ -1,0 +1,56 @@
+{
+    "data": [
+      
+      {
+        "question": "What does CSS stand for?",
+        "choices": [" Creative Style Sheets ", "Cascading Style Sheets", "Cascade Style Sheets ", "Colorful Style Sheets"],
+        "answer": "Cascading Style Sheets"
+      },
+      {
+        "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+        "choices": ["In the <body> section ", "In the <head> section", "Between head and body", "At the top of the document"],
+        "answer": "In the <head> section"
+      }, {
+        "question": "Which HTML tag is used to define an internal style sheet?",
+        "choices": ["css", "css-style", "style", "styles"],
+        "answer": "style"
+      }, {
+        "question": "Which is the correct CSS syntax?",
+        "choices": ["body {color: black}", " body {color-style : black}", " {body ; color: black}", " {body . color: black}"],
+        "answer": "body {color: black}"
+      }, {
+        "question": "Which property is used to change the background color?",
+        "choices": ["Background-color", "bg-color", "color-bg", "color-Background"],
+        "answer": "Background-color"
+      }, {
+        "question": "How do you add a background color for all '<h1>'' elements?",
+        "choices": ["all.h1{background-color:#FFFFFF} ", " #h1{background-color:#FFFFFF} ", "h1 {background-color:#FFFFFF}", ".h1{background-color:#FFFFFF}"],
+        "answer": "h1 {background-color:#FFFFFF}"
+      }, {
+        "question": "How do you change the text color of an element?",
+        "choices": ["text-color", "color", "color-text", "change-color"],
+        "answer": "color"
+      }, {
+        "question": "Which CSS property controls the text size?",
+        "choices": ["text-size", "font-size", "text-style", "font-style"],
+        "answer": "font-size"
+      }, {
+        "question": "How do you display hyperlinks without an underline?",
+        "choices": ["a {text-decoration:no underline} ", " a {decoration:no underline} ", "a {underline:none}", "a {text-decoration:none}"],
+        "answer": "a {text-decoration:none}"
+      },
+      {
+        "question": "How do you make each word in a text start with a capital letter?",
+        "choices": [" text-transform:uppercase", "text-transform:capitalize", "You can't do that with CSS ", "text-decoration:uppercase"],
+        "answer": "text-transform:capitalize"
+      },
+      {
+        "question": "how to center a div in css",
+        "choices": ["display:block; margin:0 auto", "display:flex ; text align:center", "display:inline ; margin:0", "display:inline-flex; text align:center"],
+        "answer": "display:block; margin:0 auto"
+      }
+    ]
+  }
+
+
+  

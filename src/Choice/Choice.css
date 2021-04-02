@@ -1,0 +1,95 @@
+.choice {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.choice button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(79, 16, 138);
+}
+
+.choice button:hover {
+  color: white;
+  background: rgb(79, 13, 126);
+}
+
+.flex-choice {
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 4%;
+}
+
+.flex-choice .choice img {
+  width: 200px;
+  height: 160px;
+}
+.h1 {
+  font-size: 20px;
+  color: white;
+  margin: 1%;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 690px) {
+  .flex-choice .choice img {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .flex-choice .choice img {
+    width: 200px;
+    height: 160px;
+  }
+  .h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+.h3 {
+  background-color: #1b1919;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: 600;
+  bottom: 0;
+}
+.h3 a {
+  color: blueviolet;
+}
+.h3 a:hover {
+  color: blueviolet;
+}
+
+@media screen and (max-width: 690px) {
+  .h3 {
+    position: absolute;
+    font-weight: 600;
+    bottom: 0;
+  }
+}

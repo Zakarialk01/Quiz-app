@@ -1,9 +1,8 @@
-import "./App.css";
-import { Question, Start, End, Modal } from "./components";
+import { Question, Start, End, Modal } from "../components";
 import React, { useState, useEffect } from "react";
-import quiz from "./data/quiz.json";
+import quiz from "../data/quiz.json";
 
-import Navbar from "./Navbar";
+import Navbar from "../navbar/Navbar";
 import "./quiz.css";
 let interval;
 function Quiz() {

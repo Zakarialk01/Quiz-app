@@ -1,0 +1,79 @@
+{
+    "data": [
+      
+      {
+        "question": "Which player has never played for Sevilla FC ?",
+        "choices": ["Wissam ben yedder", "kevin gameiro", "suso", "Paco alcacer"],
+        "answer": "Paco alcacer"
+      },
+      {
+        "question": "How many clubs has Sergio Ramos played in?",
+        "choices": ["1", "2", "3", "4"],
+        "answer": "2"
+      },
+     
+      {
+        "question": "What nationality is Josip Iličić",
+        "choices": ["Slovakia", "Slovenia", "Serbia", "Czech"],
+        "answer": "Slovenia"
+      },
+     
+      {
+        "question": "which player doesn't play for Morroco ?",
+        "choices": ["Hakim Ziyech", "Nacer Chadli", "Munir El Haddadi", "Adel Taarabt"],
+        "answer": "Nacer Chadli"
+      },
+     
+      {
+        "question": "What the first club that Erling Haaland played ?",
+        "choices": ["Dortmund", "Fc Malmo", "Salzburg", "Leipzig"],
+        "answer": "Salzburg"
+      },
+     
+      {
+        "question": "What origin is Diego Costa",
+        "choices": ["Spain", "Brazil", "Mexique", "Ecuador"],
+        "answer": "Brazil"
+      },
+     
+      {
+        "question": "The last country that won the world cup is ?",
+        "choices": ["Croatia", "France", "Belgique", "Brazil"],
+        "answer": "France"
+      },
+     
+      {
+        "question": "What are the two teams that played the final of the last copa america ",
+        "choices": ["Brazil - Argentina", "Brazil - Peru", "Brazil - Chili", " Brazil - uruguay"],
+        "answer": "Brazil - Peru"
+      },
+     
+      {
+        "question": "In which club Papu Gomez play ?",
+        "choices": ["Atalanta", "Fc Seville", "Calgiari", "As Roma"],
+        "answer": "Fc Seville"
+      },
+     
+      {
+        "question": "Which player isn't Japanese",
+        "choices": ["Daechi Kamada", "Shinji Okazaki", "Heung Min Son", "Takefusa Kubo"],
+        "answer": "Heung Min son"
+      },
+     
+      {
+        "question": "The player who won the Champions league with bayern by being on loan is ?",
+        "choices": ["Mickael Cuisance", "Ivan perisic", "Serge Gnabry", "Thiago alcantara"],
+        "answer": "Ivan perisic"
+      },
+     
+      {
+        "question": "The last result between Real madrid and Fc barcelona was ",
+        "choices": ["3-1", "2-0", "3-2", "2-2"],
+        "answer": "3-1"
+      }
+     
+    ]
+  }
+
+
+  

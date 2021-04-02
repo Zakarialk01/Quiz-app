@@ -1,0 +1,63 @@
+{
+    "data": [
+      
+      {
+        "question": " React is a_________ ",
+        "choices": ["Javascript Library", "Javascript Framework", "A and B", "Neither of the above is true"],
+        "answer": "Javascript Library"
+      },
+      {
+        "question": "ReactJS covers the  _________?",
+        "choices": ["User interface (UI) layer in an application", "Data layer in an application", "Innsbruck", "Neither of the above is true"],
+        "answer": "User interface (UI) layer in an application"
+      },
+      {
+        "question": "ReactJS uses _____ to increase performance",
+        "choices": ["DOM", "Real DOM", "React DOM", "Virtual DOM"],
+        "answer": "Virtual DOM"
+      },
+      {
+        "question": "React is based on _______",
+        "choices": ["Modules", "Services", "Microservices", "Components"],
+        "answer": "Components"
+      },
+      {
+        "question": "How many elements does a React component return?",
+        "choices": ["1 element", "2 element","Many","Neither of the above is true"],
+        "answer": "Many"
+      },
+      {
+        "question": "How do I access the state of a component inside a member function?",
+        "choices": ["this.state", "this.getState()", "this.prototype.stateValue", "this.values"],
+        "answer": "this.values"
+      },
+      {
+        "question": "Props are __________ in other components",
+        "choices": ["Injected", "methods", "attribute", "A and B"],
+        "answer": "Injected"
+      },
+      {
+        "question": "The componentDidMount method is called  ____",
+        "choices": ["After the component is rendered", "When the state of the component is updated", "A & B", "when a component gets updated"],
+        "answer": "After the component is rendered"
+      },
+      {
+        "question": "______ helps react to keep their data unidirectional.",
+        "choices": ["Jsx", "Dom", "Flux", "Props"],
+        "answer": "Flux"
+      },
+      {
+        "question": "What are the two ways data is processed in React?",
+        "choices": ["state & props", "state & components", "state & services", "props & components"],
+        "answer": "state & props"
+      },
+      {
+        "question": "Which method is not part of ReactDOM?",
+        "choices": ["ReactDOM.destroy()", "ReactDOM.hydrate()", "ReactDOM.createPortal()", "ReactDOM.findDOMNode()"],
+        "answer": "ReactDOM.destroy()"
+      }
+    ]
+  }
+
+
+  
