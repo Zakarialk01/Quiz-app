@@ -28,7 +28,7 @@
       },
       {
         "question": "How do I access the state of a component inside a member function?",
-        "choices": ["this.state", "this.getState()", "this.prototype.stateValue", "this.values"],
+        "choices": ["this.state", "this.getState()", "this.stateValue", "this.values"],
         "answer": "this.values"
       },
       {

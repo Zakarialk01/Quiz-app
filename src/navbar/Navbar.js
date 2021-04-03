@@ -35,7 +35,7 @@ function Navbar() {
       ) : (
         <>
           <button className="btn" onClick={logout}>
-            <i class="fas fa-sign-in-alt"> </i> LogOut
+            <i class="fa fa-sign-in-alt"> </i> LogOut
           </button>
         </>
       )}

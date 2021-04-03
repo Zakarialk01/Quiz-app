@@ -106,7 +106,7 @@ function Log() {
             <>
               <h1 style={{ fontWeight: "600", fontSize: "30px" }}>
                 {" "}
-                <i class="fas fa-sign-in-alt"></i> SignUp
+                <i class="fa fa-sign-in-alt"></i> SignUp
               </h1>
               <span>
                 Fullname :

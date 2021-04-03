@@ -88,7 +88,7 @@ function Choice() {
       <div className="flex-choice" data-aos="zoom-in" data-aos-duration="2000">
         <div class="choice">
           <img
-            src="http://aptitude.brainkart.com/media/subject/article-Logical-Reasoning-3iC.jpg"
+            src="https://i.pinimg.com/originals/63/81/af/6381afe67182a44d0b5f530db6cfcf6a.jpg"
             alt="quiz choice"
           />
 

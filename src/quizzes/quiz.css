@@ -74,36 +74,33 @@ body,
   border-radius: 2px;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 500px) and (min-width: 370px) {
   .quiz .cardd {
-    margin-top: 30%;
-  }
-  .quiz .carde {
-    margin-top: 30%;
-  }
-  .quiz .card {
-    margin-top: 17%;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .quiz .cardd {
-    margin-top: 80%;
+    margin-top: 50%;
     width: 70%;
   }
   .quiz .carde {
-    margin-top: 50%;
+    margin-top: 30%;
     width: 90%;
   }
 
   .quiz .card {
-    margin-top: 27%;
-    width: 70%;
+    margin-top: 20%;
+    width: 80%;
   }
 }
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 365px) and (min-width: 300px) {
+  .quiz .cardd {
+    margin-top: 40%;
+    width: 70%;
+  }
   .quiz .carde {
     margin-top: 30%;
+    width: 98%;
+  }
+
+  .quiz .card {
+    margin-top: 20%;
     width: 90%;
   }
 }
