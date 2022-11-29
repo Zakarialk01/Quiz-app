@@ -1,5 +1,5 @@
 .choice {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 #081a3b;
   max-width: 300px;
   margin: auto;
   text-align: center;
@@ -23,12 +23,12 @@
   font-size: 18px;
   font-weight: 700;
   color: white;
-  background-color: rgb(79, 16, 138);
+  background-color:#081a3b;
 }
 
 .choice button:hover {
-  color: white;
-  background: rgb(79, 13, 126);
+  
+  background: #081a3b;
 }
 
 .flex-choice {
@@ -39,6 +39,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 4%;
+  margin-top: 8%;
 }
 
 .flex-choice .choice img {
@@ -62,10 +63,10 @@
   bottom: 0;
 }
 .h3 a {
-  color: blueviolet;
+  color: #1b1919;
 }
 .h3 a:hover {
-  color: blueviolet;
+  color: #1b1919;
 }
 
 @media screen and (min-width: 500px) and (max-width: 690px) {

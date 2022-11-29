@@ -13,7 +13,7 @@ function Choice() {
   return (
     <div>
       <Navbar />
-      <h1 className="h1">Web developement :</h1>
+    
       <div className="flex-choice" data-aos="zoom-in" data-aos-duration="2000">
         <div class="choice">
           <img
@@ -84,7 +84,7 @@ function Choice() {
           </p>
         </div>
       </div>
-      <h1 className="h1">General culture :</h1>
+     
       <div className="flex-choice" data-aos="zoom-in" data-aos-duration="2000">
         <div class="choice">
           <img
@@ -155,14 +155,8 @@ function Choice() {
           </p>
         </div>
       </div>
-      <div className="h3">
-        <div>
-          <p>
-            © Copyright 2021. LOUKILIZAKARIA All Rights Reserved.{" "}
-            <a>Mentions légales</a> | <a> Politique de confidentialité</a>
-          </p>
-        </div>
-      </div>
+     
+
     </div>
   );
 }

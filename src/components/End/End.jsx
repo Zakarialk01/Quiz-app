@@ -69,7 +69,7 @@ const End = ({ results, data, time, onReset, onCheckAnswer }) => {
             <Modal />
             <button
               class="button is-link"
-              style={{ background: "#633194", border: "none" }}
+              style={{ background: "#081a3b", border: "none" }}
               onClick={onReset}
             >
               Try again

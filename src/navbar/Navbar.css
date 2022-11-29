@@ -1,6 +1,7 @@
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #081a3b;
+  box-shadow: 0px 0px 10px 1px white;
   border: none;
 }
 
@@ -20,7 +21,7 @@
 
 .btn-link {
   /* margin-left: auto; */
-  background: rgb(73, 13, 130);
+  background: #040c1b;
 
   color: white;
   font-weight: 500;
@@ -30,7 +31,7 @@
 
 .btn-link a {
   /* margin-left: auto; */
-  background: rgb(73, 13, 130);
+  background: #040c1b;;
 
   color: white;
   font-weight: 500;
@@ -38,12 +39,12 @@
   border: none;
 }
 .btn-link:hover {
-  background: rgb(73, 13, 130);
+  background: #040c1b;;
 
   color: white;
 }
 .btn-link a:hover {
-  background: rgb(73, 13, 130);
+  background: #040c1b;;
 
   color: white;
 }
@@ -51,7 +52,7 @@
 .btn {
   padding: 17px;
   /* margin-left: auto; */
-  background: rgb(73, 13, 130);
+  background: #040c1b;;
 
   color: white;
   font-weight: 700;
@@ -60,5 +61,5 @@
 }
 
 .btn:hover {
-  background: rgb(73, 13, 130);
+  background: #040c1b;;
 }
